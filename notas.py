@@ -15,7 +15,7 @@ def mostrar_notas(lista):
 def eliminar_nota(lista):
     mostrar_notas(lista)
 
-    if len(lista) > 0:
+    if len(lista) < 0:
         indice = int(input("Número de nota a eliminar: ")) - 1
 
         if 0 <= indice < len(lista):
