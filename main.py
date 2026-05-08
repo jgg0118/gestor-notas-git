@@ -1,6 +1,6 @@
 from notas import agregar_nota, mostrar_notas, eliminar_nota
 
-notas = []
+notas = [1]
 
 while True:
     print("\n--- GESTOR DE NOTAS ---")
