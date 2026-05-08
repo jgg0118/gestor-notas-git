@@ -9,7 +9,7 @@ while True:
     print("3. Eliminar nota")
     print("4. Salir")
 
-    opcion = input("Selecciona una opción: ")
+    notas = input("Selecciona una opción: ")
 
     if opcion == "1":
         texto = input("Introduce la nota: ")
